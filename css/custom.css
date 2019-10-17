@@ -40,3 +40,23 @@
     display:inline-block;
     float: none;
 }
+
+.navbar-dark .navbar-brand {
+    /* display: flex; */
+    color: #fff;
+    /* justify-content: center; */
+    position: relative;
+    left: 47.95%;
+}
+
+.h1 {
+    position: relative;
+    left: 50%;
+}
+
+.rotate:hover
+{
+        -webkit-transform: rotateZ(-30deg);
+        -ms-transform: rotateZ(-30deg);
+        transform: rotateZ(-30deg);
+}
